@@ -1,0 +1,523 @@
+# Copyright (C) 2026 incod, ideagrafica
+# This file is distributed under the GPL-2.0-or-later license.
+msgid ""
+msgstr ""
+"Project-Id-Version: Incod Image Dimension Manager 1.0.0\n"
+"Report-Msgid-Bugs-To: https://incod.it/incod-image-dimension-manager/support\n"
+"POT-Creation-Date: 2026-10-09 15:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Incod Image Dimension Manager build tools\n"
+"X-Domain: incod-image-dimension-manager\n"
+
+#: includes/class-idim-ajax.php:135
+msgid "You are not allowed to perform this action."
+msgstr ""
+
+#: includes/class-idim-ajax.php:261 admin/views/bulk-page.php:12
+msgid "Whole Media Library"
+msgstr ""
+
+#: includes/class-idim-ajax.php:264
+msgid "Queue created."
+msgstr ""
+
+#: includes/class-idim-ajax.php:265
+msgid "No images match the current selection."
+msgstr ""
+
+#: includes/class-idim-ajax.php:291
+msgid "The bulk process has been cancelled."
+msgstr ""
+
+#: includes/class-idim-ajax.php:302
+msgid "Invalid image batch."
+msgstr ""
+
+#: includes/class-idim-ajax.php:309 includes/class-idim-ajax.php:448
+msgid "Another resize process is already running."
+msgstr ""
+
+#: includes/class-idim-ajax.php:411
+msgid "Unknown action."
+msgstr ""
+
+#: includes/class-idim-ajax.php:471
+#, php-format
+msgid "%d image restored."
+msgid_plural "%d images restored."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-idim-image-editor.php:129
+msgid "Invalid attachment ID."
+msgstr ""
+
+#: includes/class-idim-image-editor.php:145
+msgid "The original file could not be found."
+msgstr ""
+
+#: includes/class-idim-image-editor.php:156
+#, php-format
+msgid "Unsupported media type: %s."
+msgstr ""
+
+#: includes/class-idim-image-editor.php:210
+msgid "Unable to read the image dimensions."
+msgstr ""
+
+#: includes/class-idim-image-editor.php:296
+#: includes/class-idim-image-editor.php:340
+msgid "Unable to create a temporary file."
+msgstr ""
+
+#: includes/class-idim-image-editor.php:308
+#: includes/class-idim-image-editor.php:391
+msgid "The resized image could not replace the original file."
+msgstr ""
+
+#: includes/class-idim-image-editor.php:385
+msgid "The image could not be saved."
+msgstr ""
+
+#: includes/class-idim-image-editor.php:528
+msgid "The resized image could not be generated."
+msgstr ""
+
+#: includes/class-idim-image-editor.php:534
+msgid "The resized image is not readable."
+msgstr ""
+
+#: includes/class-idim-image-editor.php:613
+msgid "Imagick could not write the canvas file."
+msgstr ""
+
+#: includes/class-idim-image-editor.php:631
+#: includes/class-idim-image-editor.php:739
+msgid "GD could not load the resized image."
+msgstr ""
+
+#: includes/class-idim-image-editor.php:641
+#: includes/class-idim-image-editor.php:747
+msgid "GD could not allocate the canvas."
+msgstr ""
+
+#: includes/class-idim-image-editor.php:675
+#: includes/class-idim-image-editor.php:780
+msgid "GD could not write the canvas file."
+msgstr ""
+
+#: admin/views/settings-page.php:14 admin/class-idim-admin.php:90
+msgid "Incod Image Dimension Manager"
+msgstr ""
+
+#: admin/views/settings-page.php:20
+msgid ""
+"Unify every image of your website to a fixed size. Choose the target "
+"dimensions, the resize mode and the images to process: the plugin handles "
+"the whole Media Library or only the images related to the post types you "
+"select."
+msgstr ""
+
+#: admin/views/settings-page.php:30
+msgid "Save Settings"
+msgstr ""
+
+#: admin/views/settings-page.php:36
+msgid "Open Bulk Resize"
+msgstr ""
+
+#: admin/views/bulk-page.php:29 admin/class-idim-admin.php:110
+#: admin/class-idim-admin.php:111
+msgid "Bulk Resize"
+msgstr ""
+
+#: admin/views/bulk-page.php:35
+msgid ""
+"Resize the whole queue in batches. The process runs asynchronously: you can "
+"pause, resume or cancel it at any time, without any limit on the number of "
+"images."
+msgstr ""
+
+#: admin/views/bulk-page.php:42
+msgid "Recommended: Regenerate Thumbnails"
+msgstr ""
+
+#: admin/views/bulk-page.php:45
+msgid ""
+"After the bulk resize, install Regenerate Thumbnails to rebuild every "
+"intermediate image size, so the modified images are displayed correctly "
+"across the whole site."
+msgstr ""
+
+#: admin/views/bulk-page.php:50
+msgid "Install now"
+msgstr ""
+
+#: admin/views/bulk-page.php:54
+msgid "Activate"
+msgstr ""
+
+#: admin/views/bulk-page.php:58
+msgid "Download & view details"
+msgstr ""
+
+#: admin/views/bulk-page.php:66 admin/class-idim-admin.php:536
+msgid "Scope"
+msgstr ""
+
+#: admin/views/bulk-page.php:67
+msgid "Nothing selected"
+msgstr ""
+
+#: admin/views/bulk-page.php:70 admin/class-idim-admin.php:537
+msgid "Target"
+msgstr ""
+
+#: admin/views/bulk-page.php:74
+msgid "Mode"
+msgstr ""
+
+#: admin/views/bulk-page.php:78 admin/class-idim-admin.php:172
+msgid "Batch size"
+msgstr ""
+
+#: admin/views/bulk-page.php:86 admin/class-idim-admin.php:509
+msgid "Idle"
+msgstr ""
+
+#: admin/views/bulk-page.php:96 admin/class-idim-admin.php:516
+msgid "Processed"
+msgstr ""
+
+#: admin/views/bulk-page.php:100 admin/class-idim-admin.php:517
+msgid "Skipped"
+msgstr ""
+
+#: admin/views/bulk-page.php:104 admin/class-idim-admin.php:518
+msgid "Errors"
+msgstr ""
+
+#: admin/views/bulk-page.php:108
+msgid "Total"
+msgstr ""
+
+#: admin/views/bulk-page.php:112 admin/class-idim-admin.php:520
+msgid "Elapsed"
+msgstr ""
+
+#: admin/views/bulk-page.php:116 admin/class-idim-admin.php:521
+msgid "Estimated remaining"
+msgstr ""
+
+#: admin/views/bulk-page.php:123 admin/class-idim-admin.php:524
+msgid "Start bulk resize"
+msgstr ""
+
+#: admin/views/bulk-page.php:126 admin/class-idim-admin.php:525
+msgid "Pause"
+msgstr ""
+
+#: admin/views/bulk-page.php:129 admin/class-idim-admin.php:527
+msgid "Cancel"
+msgstr ""
+
+#: admin/views/bulk-page.php:132 admin/class-idim-admin.php:528
+msgid "Restore originals"
+msgstr ""
+
+#: admin/views/bulk-page.php:137 admin/class-idim-admin.php:522
+msgid "Error log"
+msgstr ""
+
+#: admin/views/bulk-page.php:139 admin/class-idim-admin.php:523
+msgid "No errors detected."
+msgstr ""
+
+#: admin/views/bulk-page.php:146
+msgid ""
+"The queue is processed a few images at a time to prevent PHP timeouts. You "
+"can close this page and come back later: the counters are stored on the "
+"server."
+msgstr ""
+
+#: admin/views/bulk-page.php:151 admin/class-idim-admin.php:101
+#: admin/class-idim-admin.php:102 admin/class-idim-admin.php:571
+msgid "Settings"
+msgstr ""
+
+#: admin/class-idim-admin.php:91
+msgid "Incod Image Dimensions"
+msgstr ""
+
+#: admin/class-idim-admin.php:137
+msgid "Target size and resize mode"
+msgstr ""
+
+#: admin/class-idim-admin.php:142
+msgid "Width (px)"
+msgstr ""
+
+#: admin/class-idim-admin.php:143
+msgid "Height (px)"
+msgstr ""
+
+#: admin/class-idim-admin.php:144
+msgid "Resize mode"
+msgstr ""
+
+#: admin/class-idim-admin.php:145
+msgid "Crop focal point"
+msgstr ""
+
+#: admin/class-idim-admin.php:146
+msgid "Canvas color"
+msgstr ""
+
+#: admin/class-idim-admin.php:147
+msgid "Transparent canvas"
+msgstr ""
+
+#: admin/class-idim-admin.php:152
+msgid "Processing scope"
+msgstr ""
+
+#: admin/class-idim-admin.php:157
+msgid "Images to process"
+msgstr ""
+
+#: admin/class-idim-admin.php:158
+msgid "Post types"
+msgstr ""
+
+#: admin/class-idim-admin.php:163
+msgid "Automation and processing"
+msgstr ""
+
+#: admin/class-idim-admin.php:168
+msgid "Auto-resize on upload"
+msgstr ""
+
+#: admin/class-idim-admin.php:169
+msgid "Skip already sized images"
+msgstr ""
+
+#: admin/class-idim-admin.php:170
+msgid "Allow upscaling"
+msgstr ""
+
+#: admin/class-idim-admin.php:171
+msgid "Keep a backup of the originals"
+msgstr ""
+
+#: admin/class-idim-admin.php:173
+msgid "JPEG quality"
+msgstr ""
+
+#: admin/class-idim-admin.php:182
+msgid ""
+"All images are unified to the exact target dimensions. Letterbox pads the "
+"empty space with a colored or transparent canvas, Hard Crop cuts the image "
+"on the focal point, Proportional Scale only resizes without adding canvas or "
+"cutting."
+msgstr ""
+
+#: admin/class-idim-admin.php:191
+msgid ""
+"Choose whether to process the entire Media Library or only the images "
+"related to the selected post types: featured images, attached files, "
+"WooCommerce product galleries and product variations."
+msgstr ""
+
+#: admin/class-idim-admin.php:200
+msgid ""
+"These options control new uploads, the bulk queue and the safety of your "
+"original files."
+msgstr ""
+
+#: admin/class-idim-admin.php:238
+msgid "Letterbox (colored canvas)"
+msgstr ""
+
+#: admin/class-idim-admin.php:239
+msgid "Hard Crop (cut on focal point)"
+msgstr ""
+
+#: admin/class-idim-admin.php:240
+msgid "Proportional Scale (no canvas, no cut)"
+msgstr ""
+
+#: admin/class-idim-admin.php:263
+msgid "Center"
+msgstr ""
+
+#: admin/class-idim-admin.php:264
+msgid "Top"
+msgstr ""
+
+#: admin/class-idim-admin.php:265
+msgid "Bottom"
+msgstr ""
+
+#: admin/class-idim-admin.php:266
+msgid "Left"
+msgstr ""
+
+#: admin/class-idim-admin.php:267
+msgid "Right"
+msgstr ""
+
+#: admin/class-idim-admin.php:282
+msgid "Only used by the Hard Crop mode."
+msgstr ""
+
+#: admin/class-idim-admin.php:296
+msgid "Used by the Letterbox mode. Ignored when the canvas is transparent."
+msgstr ""
+
+#: admin/class-idim-admin.php:311
+msgid "Use a transparent canvas (PNG and WebP only)"
+msgstr ""
+
+#: admin/class-idim-admin.php:313
+msgid ""
+"JPEG images fall back to the canvas color, because JPEG does not support "
+"transparency."
+msgstr ""
+
+#: admin/class-idim-admin.php:328
+msgid "Whole Media Library (every image, regardless of the post types below)"
+msgstr ""
+
+#: admin/class-idim-admin.php:335
+msgid "Only images used by the selected post types"
+msgstr ""
+
+#: admin/class-idim-admin.php:349
+msgid "No public post type detected."
+msgstr ""
+
+#: admin/class-idim-admin.php:368
+msgid ""
+"Used only when images are limited to the selected post types. Includes "
+"featured images, attached files, WooCommerce product galleries and product "
+"variations."
+msgstr ""
+
+#: admin/class-idim-admin.php:383
+msgid "Automatically resize every newly uploaded image"
+msgstr ""
+
+#: admin/class-idim-admin.php:399
+msgid "Skip images that already match the target size"
+msgstr ""
+
+#: admin/class-idim-admin.php:415
+msgid "Enlarge images smaller than the target size"
+msgstr ""
+
+#: admin/class-idim-admin.php:431
+msgid "Back up original files before overwriting them"
+msgstr ""
+
+#: admin/class-idim-admin.php:433
+msgid ""
+"Backups are stored inside the uploads folder (idim-backups) and can be "
+"restored from the Bulk Resize screen."
+msgstr ""
+
+#: admin/class-idim-admin.php:447
+msgid "Images sent to the server on every AJAX request (1-50)."
+msgstr ""
+
+#: admin/class-idim-admin.php:510
+msgid "Preparing the queue…"
+msgstr ""
+
+#: admin/class-idim-admin.php:511
+msgid "Processing images…"
+msgstr ""
+
+#: admin/class-idim-admin.php:512
+msgid "Paused"
+msgstr ""
+
+#: admin/class-idim-admin.php:513
+msgid "Completed"
+msgstr ""
+
+#: admin/class-idim-admin.php:514
+msgid "Cancelled"
+msgstr ""
+
+#: admin/class-idim-admin.php:515
+msgid "No images to process with the current selection."
+msgstr ""
+
+#: admin/class-idim-admin.php:519
+msgid "Remaining"
+msgstr ""
+
+#: admin/class-idim-admin.php:526
+msgid "Resume"
+msgstr ""
+
+#: admin/class-idim-admin.php:530
+#, php-format
+msgid "%d images restored."
+msgstr ""
+
+#: admin/class-idim-admin.php:531
+msgid "The server is busy. Waiting…"
+msgstr ""
+
+#: admin/class-idim-admin.php:532
+msgid ""
+"Restore every backed-up original file? The resized versions will be replaced."
+msgstr ""
+
+#: admin/class-idim-admin.php:533
+msgid "Cancel the bulk process? The queue will be discarded."
+msgstr ""
+
+#: admin/class-idim-admin.php:534
+msgid "The request failed. Retrying…"
+msgstr ""
+
+#: admin/class-idim-admin.php:535
+msgid "Server error."
+msgstr ""
+
+#: admin/class-idim-admin.php:538
+msgid "Original backups are disabled in the settings."
+msgstr ""
+
+#: admin/class-idim-admin.php:539
+msgid "s"
+msgstr ""
+
+#: admin/class-idim-admin.php:557
+msgid ""
+"Incod Image Dimension Manager cannot work: neither Imagick nor GD is "
+"available on this server."
+msgstr ""
+
+#: admin/class-idim-admin.php:584 admin/class-idim-admin.php:599
+msgid "You are not allowed to access this page."
+msgstr ""
+
+#: admin/class-idim-admin.php:606
+msgid "Letterbox"
+msgstr ""
+
+#: admin/class-idim-admin.php:607
+msgid "Hard Crop"
+msgstr ""
+
+#: admin/class-idim-admin.php:608
+msgid "Proportional Scale"
+msgstr ""

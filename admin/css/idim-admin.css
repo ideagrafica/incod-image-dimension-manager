@@ -1,0 +1,301 @@
+/**
+ * Incod Image Dimension Manager - stili dell'area di amministrazione.
+ */
+
+.idim-wrap {
+	max-width: 1100px;
+}
+
+.idim-header {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	margin-bottom: 4px;
+}
+
+.idim-header-icon {
+	display: inline-block;
+	width: 28px;
+	height: 28px;
+	background: url( "../../assets/icon.svg" ) no-repeat center center;
+	background-size: contain;
+}
+
+.idim-version {
+	align-self: center;
+	padding: 2px 8px;
+	border-radius: 10px;
+	background: #e5e5e5;
+	color: #444;
+	font-size: 11px;
+	font-weight: 600;
+	line-height: 1.6;
+}
+
+.idim-intro {
+	margin: 12px 0 20px;
+	padding: 12px 16px;
+	border-left: 4px solid #2271b1;
+	background: #fff;
+	box-shadow: 0 1px 1px rgba( 0, 0, 0, 0.04 );
+}
+
+.idim-intro p {
+	margin: 0;
+	color: #1d2327;
+}
+
+/* Impostazioni */
+.idim-settings-form .form-table th {
+	width: 260px;
+}
+
+.idim-settings-form .form-table td {
+	vertical-align: top;
+}
+
+.idim-radio,
+.idim-checkbox {
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+	margin-right: 16px;
+	padding: 4px 0;
+	cursor: pointer;
+}
+
+.idim-checkbox-group {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 4px 18px;
+}
+
+.idim-checkbox-group .idim-checkbox {
+	min-width: 220px;
+	margin-right: 0;
+}
+
+.idim-pt-label {
+	font-weight: 600;
+}
+
+.idim-scope-radio {
+	display: block;
+	margin: 2px 0;
+}
+
+#idim-post-types-field.is-disabled {
+	opacity: 0.5;
+	pointer-events: none;
+}
+
+.idim-settings-form input[type="number"].small-text {
+	width: 100px;
+}
+
+.idim-shortcuts {
+	margin-top: 18px;
+}
+
+/* Pannelli */
+.idim-cards {
+	display: grid;
+	grid-template-columns: repeat( auto-fit, minmax( 180px, 1fr ) );
+	gap: 12px;
+	margin: 18px 0;
+}
+
+.idim-card {
+	padding: 14px 16px;
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-radius: 6px;
+	box-shadow: 0 1px 1px rgba( 0, 0, 0, 0.03 );
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+}
+
+.idim-card-label {
+	font-size: 11px;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: #646970;
+	font-weight: 700;
+}
+
+.idim-card-value {
+	font-size: 16px;
+	font-weight: 600;
+	color: #1d2327;
+	word-break: break-word;
+}
+
+.idim-panel {
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-radius: 6px;
+	padding: 22px;
+	box-shadow: 0 1px 2px rgba( 0, 0, 0, 0.04 );
+}
+
+/* Progress bar */
+.idim-progress-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	margin-bottom: 8px;
+}
+
+.idim-status {
+	font-size: 15px;
+	font-weight: 600;
+	color: #1d2327;
+}
+
+.idim-percentage {
+	font-size: 28px;
+	font-weight: 700;
+	color: #2271b1;
+	font-variant-numeric: tabular-nums;
+}
+
+.idim-progress-track {
+	position: relative;
+	height: 26px;
+	border-radius: 13px;
+	background: #f0f0f1;
+	overflow: hidden;
+	box-shadow: inset 0 1px 2px rgba( 0, 0, 0, 0.08 );
+}
+
+.idim-progress-bar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 0;
+	border-radius: 13px;
+	background: linear-gradient( 90deg, #2271b1, #135e96 60%, #0a4b78 );
+	background-size: 200% 100%;
+	transition: width 0.45s cubic-bezier( 0.22, 0.61, 0.36, 1 );
+	animation: idim-progress-stripes 1.4s linear infinite;
+}
+
+@keyframes idim-progress-stripes {
+	from {
+		background-position: 0 0;
+	}
+	to {
+		background-position: 40px 0;
+	}
+}
+
+/* Statistiche */
+.idim-stats {
+	display: grid;
+	grid-template-columns: repeat( auto-fit, minmax( 130px, 1fr ) );
+	gap: 10px;
+	margin: 20px 0 6px;
+}
+
+.idim-stat {
+	padding: 10px 12px;
+	border: 1px solid #e2e4e7;
+	border-radius: 5px;
+	background: #f9f9fa;
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+}
+
+.idim-stat-label {
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	color: #646970;
+	font-weight: 700;
+}
+
+.idim-stat-value {
+	font-size: 20px;
+	font-weight: 700;
+	color: #1d2327;
+	font-variant-numeric: tabular-nums;
+}
+
+/* Controlli */
+.idim-controls {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 10px;
+	margin-top: 20px;
+	padding-top: 18px;
+	border-top: 1px solid #ececec;
+}
+
+.idim-controls .button-hero {
+	min-height: 44px;
+	padding: 0 22px;
+	border-radius: 4px;
+}
+
+/* Log errori */
+.idim-log-wrap {
+	margin-top: 24px;
+}
+
+.idim-log-wrap h3 {
+	margin-bottom: 8px;
+}
+
+.idim-log {
+	max-height: 240px;
+	overflow-y: auto;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border: 1px solid #dcdcde;
+	border-radius: 4px;
+	background: #1d2327;
+}
+
+.idim-log li {
+	padding: 8px 12px;
+	font-family: Menlo, Consolas, monospace;
+	font-size: 12px;
+	line-height: 1.5;
+	color: #f0f0f1;
+	border-bottom: 1px solid rgba( 255, 255, 255, 0.06 );
+	word-break: break-word;
+}
+
+.idim-log li:last-child {
+	border-bottom: 0;
+}
+
+.idim-log .idim-log-empty {
+	color: #8c8f94;
+	font-style: italic;
+	background: transparent;
+}
+
+.idim-log .idim-log-item {
+	color: #ffc1c1;
+}
+
+.idim-footnote {
+	margin-top: 16px;
+	max-width: 720px;
+}
+
+@media screen and (max-width: 782px) {
+	.idim-stats {
+		grid-template-columns: repeat( 2, 1fr );
+	}
+
+	.idim-controls .button-hero {
+		width: 100%;
+	}
+}
